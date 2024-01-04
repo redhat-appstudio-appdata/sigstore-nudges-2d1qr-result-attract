@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: client-server-1-0-gamma
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/arewm-tenant/sigstore-nudges/client-server-1-0-gamma@sha256:db846ebf39b205bfc1ad92a57fdb48a3aeb0a186ae34a0821a3798e933b0bb0b
         name: my-go
         ports:
         - containerPort: 8081
