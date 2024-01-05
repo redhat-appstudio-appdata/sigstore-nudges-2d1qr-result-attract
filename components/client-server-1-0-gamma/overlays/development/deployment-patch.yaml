@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/sigstore-nudges/client-server-1-0-gamma@sha256:db846ebf39b205bfc1ad92a57fdb48a3aeb0a186ae34a0821a3798e933b0bb0b
+      - image: quay.io/redhat-user-workloads/arewm-tenant/sigstore-nudges/client-server-1-0-gamma@sha256:3548d241a2835b2d2e167d9f8cad05b1cf2173d0792edf092c45b7e9efc3a63b
         name: my-go
         resources: {}
 status: {}
